@@ -20,7 +20,7 @@ public class HelloController {
     public Map<String, String> hello() {
         log.info("Handling request to /");
         return Map.of(
-                "message", "Hello from Kubernetes",
+                "message", "Hello from Kubernetes via GitOps!",
                 "version", appVersion
         );
     }
